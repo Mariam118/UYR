@@ -1,4 +1,4 @@
 UYR
 ===
 
-1Under Your RADAR (UYR): Exfiltration using Steganography
+Under Your Radar (UYR): Exfiltration using Steganography
