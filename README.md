@@ -14,5 +14,5 @@ First input the secret message, then a video file to hide the message into and f
 2. Extract secret the message
 In order to extract the hidden the message, you need to input the same video taht was used in hiding the message, and then the image which hold the stego key. 
 
-UYR Project: http://cirworld.com/journals/index.php/ijct/article/view/3391/pdf_555
+A research paper covering the UYR idea could be found here: http://cirworld.com/journals/index.php/ijct/article/view/3391/pdf_555
 
