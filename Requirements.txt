@@ -1,0 +1,7 @@
+The following Python modules are required to run UYR:
+os
+sys
+argparse
+shutil
+cv2
+LSBSteg
