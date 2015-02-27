@@ -1,0 +1,9 @@
+Welcome to Under Your Radar (UYR) 
+UYR is an exfiltration and covert channel application written in Python
+(1) Communicate with your friend in a stealthy manner  
+(2) Exfiltrate some data out of a network in control   
+
+Mariam Khader, @MarySteed 
+Ali Hadi, @binaryz0ne 
+
+
