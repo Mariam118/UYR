@@ -1,0 +1,8 @@
+Todo:
+1- Add more stego techniques
+2- Do more testing
+3- Add compression/decompression (optional)
+4- Add support to Facebook, instagram, etc
+5- Improve coding
+6- 
+
