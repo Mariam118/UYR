@@ -1,7 +1,9 @@
-The following Python modules are required to run UYR:
-os
-sys
-argparse
-shutil
-cv2
-LSBSteg
+A Linux operating system with the following Python 2.7.x modules are required to run UYR:
+(1) Open Source Computer Vision Library (OpenCV), http://opencv.org
+(2) Python Imaging Library (PIL), http://www.pythonware.com/products/pil/
+(3) LSB-Steganography, https://github.com/RobinDavid/LSB-Steganography
+(4) Python Image Steganography, http://domnit.org/stepic/doc/
+
+
+
+Note: UYR has not been tested under Windows
