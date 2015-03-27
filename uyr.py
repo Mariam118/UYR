@@ -37,6 +37,7 @@ def Main():
   
     if len(sys.argv) == 1:
        parser.print_help()
+       sys.exit()
 
     # Doing some cleaning and checking:
     # Clearing the tmp directory before proceeding
@@ -54,7 +55,10 @@ def Main():
         hideBinFile = args.hbfile
         hideTxTFile = args.htfile
         hideMsg = args.hmsg
-
+ 
+        if not path2Image and  not path2Video:
+           print "[+] Sorry an image file and a video file is required"
+           sys.exit()
         if not UYRUtils.checkPath2Image(path2Image):
             print "[+] Sorry image file does not exist"
             sys.exit()
