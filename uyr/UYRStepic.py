@@ -14,7 +14,7 @@ except ImportError:
     print "Hide Module: Sorry module python-stepic not found"
 
 try:
-    import Image
+    from PIL import Image
 except ImportError:
     print "Hide Module: Sorry module python-pil not found"
 

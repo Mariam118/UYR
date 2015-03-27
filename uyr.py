@@ -34,6 +34,9 @@ def Main():
     ivfgroup.add_argument('--video', help="video file used for hiding/extracting", action="store", dest="video")
     args = parser.parse_args()
     #print parser.parse_args()
+  
+    if len(sys.argv) == 1:
+       parser.print_help()
 
     # Doing some cleaning and checking:
     # Clearing the tmp directory before proceeding
