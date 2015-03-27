@@ -56,8 +56,11 @@ def Main():
         hideTxTFile = args.htfile
         hideMsg = args.hmsg
  
-        if not path2Image and  not path2Video:
-           print "[+] Sorry an image file and a video file is required"
+        if not path2Image:
+           print "[+] Sorry an image file is required"
+           sys.exit()
+        if not path2Video:
+           print "[+] Sorry a video file is required"
            sys.exit()
         if not UYRUtils.checkPath2Image(path2Image):
             print "[+] Sorry image file does not exist"
