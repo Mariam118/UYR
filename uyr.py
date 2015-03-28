@@ -34,6 +34,10 @@ def Main():
     ivfgroup.add_argument('--video', help="video file used for hiding/extracting", action="store", dest="video")
     args = parser.parse_args()
     #print parser.parse_args()
+  
+    if len(sys.argv) == 1:
+       parser.print_help()
+       sys.exit()
 
     # Doing some cleaning and checking:
     # Clearing the tmp directory before proceeding
@@ -51,7 +55,13 @@ def Main():
         hideBinFile = args.hbfile
         hideTxTFile = args.htfile
         hideMsg = args.hmsg
-
+ 
+        if not path2Image:
+           print "[+] Sorry an image file is required"
+           sys.exit()
+        if not path2Video:
+           print "[+] Sorry a video file is required"
+           sys.exit()
         if not UYRUtils.checkPath2Image(path2Image):
             print "[+] Sorry image file does not exist"
             sys.exit()
