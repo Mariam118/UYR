@@ -4,5 +4,8 @@ Todo:
 3- Add compression/decompression (optional)
 4- Add support to Facebook, instagram, etc
 5- Improve coding
-6- 
-
+6- Check diffrential analysis (COMPLETE RESEARCH!!!)
+7- Check compression issues (reducing the size)
+8- Check side channel attacks
+9- Spliting charmap into a bunch of images if file is big
+10- Ability to specify the URL directly (ex: from Youtube)
